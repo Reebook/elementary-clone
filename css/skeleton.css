@@ -460,6 +460,28 @@ there.
   text-align: center;
 }
 
+.right_text{
+  text-align: right;
+}
+
+.left_text{
+  text-align: left;
+}
+
 .grey{
   background-color: #fafafa;
+}
+
+.purple{
+  background-color: #7239b3;
+  background-image: linear-gradient(to right bottom,#4c158a,#ad65d6)
+}
+
+.text_white{
+  color:white;
+}
+
+.margin_section{
+  margin-left: 5%;
+  margin-top: 10%;
 }
