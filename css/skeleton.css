@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Inter,Helvetica,Roboto,sans-serif;
   color: #222; }
 
 
@@ -419,6 +419,8 @@ there.
 
  #nav {
   margin: 0 0 0 0;
+  line-height: 48px;
+white-space: nowrap;
  }
   
  #nav ul li {
@@ -484,4 +486,13 @@ there.
 .margin_section{
   margin-left: 5%;
   margin-top: 10%;
+}
+
+.padding_section{
+  padding: 5%;
+}
+
+.remove_spaces{
+  margin: 0;
+  padding: 0;
 }
